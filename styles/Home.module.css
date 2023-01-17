@@ -130,6 +130,16 @@
   z-index: -1;
 }
 
+.submit {
+  border-width: 3px;
+  width: 15%;
+  height: 15%;
+  border-width: 3px;
+  border-radius: 45px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: lightblue;
+}
 /* Conic Gradient Animation */
 .thirteen::before {
   animation: 6s rotate linear infinite;

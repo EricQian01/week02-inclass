@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -58,7 +59,7 @@ export default function Home() {
           onChange={(e => setFormData({...formData, username: e.target.value}))}
         />
 
-        <button type="submit" onClick={() => CheckLogin()}>Submit</button>
+<button type="submit" className={styles.submit} onClick={() => CheckLogin()}>Submit</button>
       </main>
     </>
   )
